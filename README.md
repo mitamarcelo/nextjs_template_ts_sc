@@ -15,6 +15,12 @@ This template for NextJs uses:
 
 Non checked items are to be developed next.
 
-- [x] Header 
+- [x] Header
 - [ ] About page
 - [ ] Contact page
+
+## Creating new project
+
+```bash
+  $ npx create-next-app {project_name} --example 'https://github.com/mitamarcelo/nextjs_template_ts_sc'
+```

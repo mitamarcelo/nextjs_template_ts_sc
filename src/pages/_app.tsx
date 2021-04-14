@@ -10,6 +10,7 @@ const App = ({ Component, pageProps }: AppProps) => (
   <ThemeProvider theme={theme}>
     <GlobalStyle />
     <Header />
+    {/* eslint-disable-next-line react/jsx-props-no-spreading */}
     <Component {...pageProps} />
   </ThemeProvider>
 );
