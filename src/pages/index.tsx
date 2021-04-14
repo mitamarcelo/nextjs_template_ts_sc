@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Head from 'next/head';
-import { Container } from './Home.styles';
+import Container from '@material-ui/core/Container';
 
 const Home = () => (
   <>

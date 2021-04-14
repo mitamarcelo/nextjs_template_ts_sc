@@ -14,6 +14,7 @@ module.exports = {
     },
     ecmaVersion: 12,
     sourceType: 'module',
+    allowImportExportEverywhere: true,
   },
   plugins: [
     'react',
@@ -22,9 +23,11 @@ module.exports = {
   settings: {
     'import/resolver': {
       node: {
+        paths: ['src'],
         extensions: ['.js', '.jsx', '.ts', '.tsx'],
       },
     },
+
   },
   rules: {
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
